@@ -38,3 +38,35 @@
     background-color: rgba(0, 0, 0, 0.284);
     color: white;
 }
+
+/* Card planilla docente */
+.planilla{
+    backdrop-filter: blur(7px);
+}
+
+.planilla:hover > :not(:hover){
+    opacity: 0.2;
+}
+
+.planilla-card{
+    transition: all 0.21s;
+    width: 250px;
+}
+
+.planilla-card:hover{
+    transform: scale(1.04);
+}
+
+.planilla-card-title{
+    
+    background-color: rgba(225, 225, 225, 0.79);
+    box-shadow: 0px -3px 20px 0 rgba(225, 225, 225, 0.79) ;
+}
+
+.planilla-card-title h2{
+    padding-left: 50px;
+}
+.planilla-card-title i{
+    left: 26px;
+    position: absolute;
+}
